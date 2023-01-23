@@ -1,14 +1,144 @@
 <!DOCTYPE html>
-<html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>hw-02</title>
+  </head>
 
-<head>
-    <meta charset=utf-8/>
-</head>
+  <body>
+    <div id="data-abstraction">
+      <div class="info">
+        <h1 class="centered">Dataset Types</h1>
+        <table class="centered">
+          <tr class="blue">
+            <th>Data</th>
+            <th>Link</th>
+            <th>Dataset</th>
+          </tr>
+          <tr>
+            <td>UFO</td>
+            <td>
+              <a href="UFO.csv">link</a>
+            </td>
+            <td>Table</td>
+          </tr>
+          <tr>
+            <td>Airports</td>
+            <td>
+              <a href="Airports.csv">link</a>
+            </td>
+            <td>Table</td>
+          </tr>
+          <tr>
+            <td>Google-Web</td>
+            <td>
+              <a href="Google-Web.csv">link</a>
+            </td>
+            <td>Network</td>
+          </tr>
+        </table>
+      </div>
 
+      <div class="info">
+        <h1 class="centered">Data Types</h1>
+        <h2 class="left-align">UFO</h2>
+        <ul>
+          <li>Row Data Type: Item</li>
+          <li>Attributes:</li>
+          <ul>
+            <li>datetime (Quantitative Sequential)</li>
+            <li>city (Categorical)</li>
+            <li>state (Categorical)</li>
+            <li>country (Categorical)</li>
+            <li>shape (Categorical)</li>
+            <li>duration (seconds) (Quantitative Sequential)</li>
+          </ul>
+        </ul>
+        <h2 class="left-align">Airports</h2>
+        <ul>
+          <li>Row Data Type: Item</li>
+          <li>Attributes:</li>
+          <ul>
+            <li>AIRPORT_NAME (Categorical)</li>
+          </ul>
+          <li>Positions:</li>
+          <ul>
+            <li>LATITUDE</li>
+            <li>LONGITUDE</li>
+          </ul>
+        </ul>
+        <h2 class="left-align">Google-Web</h2>
+        <ul>
+          <li>Row Data Type: Item</li>
+          <li>Links:</li>
+          <ul>
+            <li>FromNodeId</li>
+            <li>ToNodeId</li>
+          </ul>
+        </ul>
+      </div>
 
-<body>
+      <div id="task-abstraction">
+        <h1 class="centered">Task Abstraction</h1>
+        <div class="flex-container">
+          <div>
+            <img src="img/vis1.png" alt="vis1" />
+            <p class="left-align task-abstraction-color">
+              High-level task: consume -> present
+              <br />
+              Medium-level task: search -> browse
+              <br />
+              Low-level task: query -> compare
+              <br />
+              Target: attributes -> outliers
+            </p>
+          </div>
+          <div>
+            <img src="img/vis2.png" alt="vis2" />
+            <p class="left-align task-abstraction-color">
+              High-level task: consume -> discover
+              <br />
+              Medium-level task: search ->
+              <br />
+              Low-level task: query -> compare
+              <br />
+              Target: attributes -> distribution
+            </p>
+          </div>
+        </div>
+        <div id="decoration" class="flex-shapes">
+          <svg width="100" height="100">
+            <rect width="100" height="100" />
+          </svg>
+          <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" />
+          </svg>
+          <svg width="100" height="100">
+            <rect width="100" height="100" />
+          </svg>
+          <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" />
+          </svg>
+          <svg width="100" height="100">
+            <rect width="100" height="100" />
+          </svg>
+        </div>
+      </div>
 
-
-</body>
-
+      <h2 class="centered">Acknowledgements</h2>
+      <div>
+        <ul>
+          <li>https://www.w3schools.com/html/html_tables.asp</li>
+          <li>https://www.w3schools.com/html/html_links.asp</li>
+          <li>
+            https://www.geeksforgeeks.org/how-to-define-two-column-layout-using-flexbox/
+          </li>
+          <li>https://www.w3schools.com/graphics/svg_circle.asp</li>
+          <li>https://www.w3schools.com/cssref/sel_hover.php</li>
+          <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>

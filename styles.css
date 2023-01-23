@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+}
+
+.centered {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.task-abstraction-color {
+  color: blueviolet;
+}
+
+rect {
+  fill: magenta;
+  stroke-width: 3px;
+  stroke: black;
+}
+
+circle {
+  fill: magenta;
+  opacity: 50%;
+}
+
+.flex-shapes {
+  display: flex;
+  justify-content: space-around;
+}
+
+svg:hover rect {
+  fill: forestgreen;
+}
+
+svg:hover circle {
+  border: 5px;
+  stroke-width: 5px;
+  stroke: black;
+}
