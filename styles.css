@@ -57,3 +57,7 @@ svg:hover circle {
   stroke-width: 5px;
   stroke: black;
 }
+
+table {
+  width: 100%;
+}
